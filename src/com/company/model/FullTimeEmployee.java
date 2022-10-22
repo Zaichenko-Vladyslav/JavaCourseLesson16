@@ -1,11 +1,5 @@
 package com.company.model;
 
-/*
-*
-*   HEADER
-*
-* */
-
 import com.company.IAccounting;
 
 public class FullTimeEmployee implements IAccounting {
@@ -15,6 +9,7 @@ public class FullTimeEmployee implements IAccounting {
     private int days;
 
     public FullTimeEmployee() {
+
     }
 
     public FullTimeEmployee(String name, int monthlySalary) {
@@ -40,10 +35,10 @@ public class FullTimeEmployee implements IAccounting {
 
     @Override
     public String toString() {
-        return "FullTimeEmployee{" +
-                "name='" + name + '\'' +
-                ", monthlySalary=" + monthlySalary +
-                '}';
+        return "FullTimeEmployee {" +
+                " name = '" + name + '\'' +
+                ", monthlySalary = " + monthlySalary +
+                " }";
     }
 
     @Override
